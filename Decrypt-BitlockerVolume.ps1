@@ -1,4 +1,4 @@
-﻿#Requires -Version 3 -Modules ('Bitlocker', 'Storage')
+#Requires -Version 3 -Modules ('Bitlocker', 'Storage')
 
 <#
     .SYNOPSIS
@@ -93,7 +93,7 @@
         [Regex]$VolumeStatusExpression = "^FullyDecrypted$",
 
         [Parameter(Mandatory=$False)]
-        [Switch]$DebugMode = $True,
+        [Switch]$DebugMode,
             
         [Parameter(Mandatory=$False)]
         [ValidateNotNullOrEmpty()]
