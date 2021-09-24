@@ -1,10 +1,10 @@
-﻿**********************
+**********************
 Windows PowerShell transcript start
 Start time: 20210924150053
-Username: AzureAD\AlphaeusMote
-RunAs User: AzureAD\AlphaeusMote
+Username: XXX
+RunAs User: XXX
 Configuration Name: 
-Machine: AL-ALPHAEUS (Microsoft Windows NT 10.0.19042.0)
+Machine: XXX (Microsoft Windows NT 10.0.19042.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
 Process ID: 17500
 PSVersion: 5.1.19041.1151
@@ -19,7 +19,6 @@ SerializationVersion: 1.1.0.1
 **********************
 Command start time: 20210924150053
 **********************
-PS C:\Users\AlphaeusMote\Qsync\Personal\Powershell\Scripts> ParameterBinding(Trace-SteroidsOutput): name="InputObject"; value="Transcript started, output file is C:\Windows\Logs\Software\Decrypt-BitlockerVolume\Decrypt-BitlockerVolume_20210924.log"
 Transcript started, output file is C:\Windows\Logs\Software\Decrypt-BitlockerVolume\Decrypt-BitlockerVolume_20210924.log
 VERBOSE: Script "Decrypt-BitlockerVolume.ps1" is beginning. Please Wait...
 VERBOSE: The following parameters and values were provided to the "Decrypt-BitlockerVolume.ps1" script.
@@ -31,7 +30,7 @@ VERBOSE: DriveLetterInclusionExpression: "^[C]$"
 VERBOSE: DriveLetterExclusionExpression: "^.{0,0}$"
 VERBOSE: ContinueOnError: "False"
 VERBOSE: Execution of script "Decrypt-BitlockerVolume.ps1" began on Friday, September 24, 2021 @ 03:00:53.069 PM
-VERBOSE: Script Path = \\gsnas-p01\Synchronization Folders\USPS - QTQZC0\Powershell\Scripts\Decrypt-BitlockerVolume\Decrypt-BitlockerVolume.ps1
+VERBOSE: Script Path = .\Scripts\Decrypt-BitlockerVolume\Decrypt-BitlockerVolume.ps1
 VERBOSE: Attempting to display device information properties from the "MS_SystemInformation" WMI class located within the "root\WMI" WMI namespace. Please Wait...
 VERBOSE: BaseBoardManufacturer = LENOVO
 VERBOSE: BaseBoardProduct = 20U9001QUS
@@ -48,11 +47,11 @@ VERBOSE: Now processing volume "OS" [DriveLetter: C:]. Please Wait...
 VERBOSE: The volume drive type of "Fixed" matches the regular expression of "^Fixed$"
 VERBOSE: The volume drive letter of "C:" matches the regular expression of "^[C]$" and does not match the regular expression of "^.{0,0}$"
 WARNING: The volume status of Bitlocker volume "OS" [DriveLetter: C:] is currently "FullyDecrypted". Skipping.
-WARNING: 0 Bitlocker encrypted volume(s) could be found on device "AL-ALPHAEUS". No further action will be taken.
+WARNING: 0 Bitlocker encrypted volume(s) could be found on device "XXX". No further action will be taken.
 VERBOSE: Script execution of "Decrypt-BitlockerVolume.ps1" ended on Friday, September 24, 2021 @ 03:00:54.147 PM
 VERBOSE: Script execution took 0 hour(s), 0 minute(s), 1 second(s), and 77 millisecond(s)
 VERBOSE: Script "Decrypt-BitlockerVolume.ps1" is completed.
-WARNING: Exiting script "\\gsnas-p01\Synchronization Folders\USPS - QTQZC0\Powershell\Scripts\Decrypt-BitlockerVolume\Decrypt-BitlockerVolume.ps1" with exit code 0.
+WARNING: Exiting script ".\Scripts\Decrypt-BitlockerVolume\Decrypt-BitlockerVolume.ps1" with exit code 0.
 **********************
 Windows PowerShell transcript end
 End time: 20210924150054
